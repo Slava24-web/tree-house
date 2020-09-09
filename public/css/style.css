@@ -1,0 +1,524 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 20px;
+}
+
+
+
+/*Top-bar*/
+#top-bar {
+    width: 100%;
+    background-color: white;
+}
+.logo {
+    width: 220px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+.navigation {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.navigation li a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: #8d8d8d;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.1s ease-out;
+    border-bottom: 0px solid #7cc576;
+    padding-bottom: 7px;
+}
+.navigation li a:hover {
+    color: #2AB41F;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #7cc576;
+    text-decoration: none;
+    outline: none;
+}
+.navigation li a:active {
+    color: black;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+}
+/*HEADER*/
+#header {
+    background: url(../images/Transparency-Layer.jpg) no-repeat center / cover;
+    height: 660px;
+}
+.header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.header-title .title-h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.header-title p {
+    color: #cccccc;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    margin-bottom: 70px;
+}
+.header-button {
+    width: 230px;
+    height: 50px;
+    background: #7cc576;
+    padding-top: 30px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.header-title a {
+    text-decoration: none;
+}
+.header-button:hover {
+    width: 230px;
+    height: 50px;
+    background: #44923d;
+    padding-top: 30px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.header-button:active {
+    width: 230px;
+    height: 50px;
+    background: #1f7518;
+    padding-top: 30px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/*SERVICES*/
+#services {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.title {
+    margin: 0 auto;
+}
+.title h1{
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    margin-bottom: 10px;
+}
+.title p {
+    color: #777777;
+    font-size: 18px;
+    text-align: center;
+}
+#services .container {
+    display: flex;
+    flex-direction: column;
+}
+.services-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.services-item {
+    width: 280px;
+    text-align: center;
+    line-height: 1.3em;
+}
+.services-item img {
+    margin: 90px 0 40px 0;
+}
+.services-item h3 {
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+}
+.services-item p {
+    color: #777777;
+    font-size: 16px;
+    font-family: 'Roboto Condensed';
+}
+/*JUST RELAX*/
+#just_relax {
+    /*height: 615px;*/
+    display: flex;
+    flex-direction: row;
+}
+.bg-icon{
+    width: 30%;
+    background: #e9e9e9 url(../images/gear-2.png) no-repeat;
+    background-position: 375px;
+    position: relative;
+}
+.bg-photo {
+    width: 70%;
+    background: url(../images/Shape-2-copy.jpg) no-repeat center / cover;
+}
+
+.just_relax-content {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 0 100px;
+}
+.just_relax-content h2 {
+    color:  white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    line-height: 1.3em;
+    margin-bottom: 45px;
+}
+.and {
+    color: #7cc576;
+}
+.just_relax-content p {
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+.li-item {
+    color: #cccccc;
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    margin-bottom: 30px;
+}
+/*LATEST PROJECT*/
+#latest-project {
+    padding-top: 100px;
+    background: url(../images/isometric-iPad-Air.png) no-repeat right;
+}
+.dev {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.dev h3 {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    margin-bottom: 20px;
+}
+.dev p {
+    color: #838383;
+    font-family: 'Roboto Condensed';
+    line-height: 1.3em;
+    margin-bottom: 25px;
+}
+.dev-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.dev-item p {
+    margin: 20px 0 0 15px;
+}
+.bolder {
+    font-weight: bold;
+    color: black;
+    font-family: 'Montserrat';
+}
+.details {
+    color: #7cc576;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+/*CULTURE&VALUES*/
+#culture-values {
+    background: #f9f9f9;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*OUR CLIENTS*/
+#clients {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.dialog-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.arrow {
+    height: 25px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.text {
+    width: 640px;
+    background: #f9f9f9;
+    height: 170px;
+    margin-top: 30px;
+}
+.text p {
+    color: #777777;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.green {
+    color: #7cc576;
+    margin: 20px 100px 30px 100px;
+}
+.dialog-2 {
+    display: flex;
+    flex-direction: row;
+}
+.dialog-2 .text {
+    margin-right: -25px;
+}
+.dialog-2 .arrow {
+    margin-right: 25px;
+}
+.dialogs {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+/*CONTACT*/
+#contact {
+    background: #7cc576;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+}
+.contact-us {
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.contact-us div {
+    border: 3px solid white;
+    width: 170px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.2s ease-out;
+}
+.contact-us div:hover {
+    border: 3px solid black;
+    width: 170px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 0;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*LOGOS*/
+#logos .container img {
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/*FOOTER*/
+#footer {
+    background: #222222;
+    padding: 60px 0;
+}
+.footer-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 auto;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+.footer-item h3 {
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+.line {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.line p {
+    color: #c4c4c4;
+    margin: 10px 0 0 15px;
+    font-size: 17px;
+    font-family: 'Roboto Condensed';
+}
+/*BOTTOM-BAR*/
+#bottom-bar p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #777777;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    margin-right: 150px;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 1370px) {
+    .container {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .top-bar {
+        width: 100%;
+        text-align: center;
+    }
+    .bg-icon {
+        display: none;
+    }
+    .services-items {
+        justify-content: space-around;
+    }
+    .bg-photo {
+        width: 100%;
+    }
+    .just_relax-content {
+        width: 70%;
+        margin: 40px 30px;
+    }
+    .navigation {
+        justify-content: flex-end;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .dev {
+        margin: 0 auto;
+        padding-top: 90px;
+        text-align: start;
+    }
+    #latest-project {
+        background: none;
+    }
+    .text {
+        width: 100%;
+        height: auto;
+    }
+    .photo {
+        display: none;
+    }
+    .arrow {
+        display: none;
+    }
+    .footer-item {
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    #bottom-bar p {
+        margin-left: 40px;
+    }
+@media screen and (max-width: 768px) {
+    .footer-block {
+        flex-direction: column;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #bottom-bar p {
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .social {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+}
+    
+@media screen and (max-width: 760px) {
+    .navigation {
+        display: none;
+    }
+    .header-title .title-h1 {
+        font-size: 54px;
+    }
+    .logo {
+        margin: 0 auto;
+    }
+    .dev {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .dev-item {
+        width: 100%;
+    }
+    #logos {
+        display: none;
+    }
+}
+@media screen and (max-width: 568px) {
+    .header-title .title-h1 {
+        font-size: 46px;
+    }
+}
